@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "apotheken-vlog",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <iframe src="https://giphy.com/embed/cj2TWQYRQY0ESN0zmR" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bbcamerica-cute-animals-lifestory-cj2TWQYRQY0ESN0zmR"></a></p>
+    <h1>Ein Buch von Apotheken Vlog</h1>
+    <p>This is a paragraph.</p>
+    <div>This is a div.</div>
+
+  <!-- your content here... -->
+  <!--script src="js/scripts.js"></script-->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDUdZ4m5altUD7N0JafG0NJn-XoPp4hPJs",
+      authDomain: "apotheken-vlog.firebaseapp.com",
+      projectId: "apotheken-vlog",
+      storageBucket: "apotheken-vlog.appspot.com",
+      messagingSenderId: "607890653812",
+      appId: "1:607890653812:web:d91e79f03f409c458d0721",
+      measurementId: "G-HG88KPG8PF"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
